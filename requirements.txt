@@ -1,0 +1,11 @@
+konsole
+
+polybar
+
+fish
+
+picom
+
+nitrogen
+
+openbox
