@@ -1,0 +1,2 @@
+polybar main &
+nitrogen --restore &
