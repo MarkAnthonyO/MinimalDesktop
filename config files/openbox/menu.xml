@@ -2,6 +2,13 @@
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
   <menu id="root-menu" label="Openbox 3">
+
+    <item label="Terminal">
+      <action name="Execute">
+        <command>konsole</command>
+      </action>
+    </item>
+
     <item label="Manage Cups Printers">
       <action name="Execute">
         <command>xdg-open http://localhost:631/</command>
@@ -18,7 +25,6 @@
 
     <item label="Log Out">
       <action name="Exit">
-        <prompt>yes</prompt>
       </action>
     </item>
   </menu>
