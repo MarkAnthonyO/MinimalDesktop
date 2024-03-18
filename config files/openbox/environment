@@ -1,2 +1,2 @@
-LANG=en_CA.UTF8
-KEYMAP=es
+LANG=es_MX.UTF8
+setxkbmap es
