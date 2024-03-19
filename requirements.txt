@@ -11,3 +11,21 @@ nitrogen
 openbox
 
 plank
+
+ark
+
+noto-fonts
+
+noto-fonts-cjk
+
+noto-fonts-emoji
+
+ttf-font-awesome
+
+pulseaudio
+
+pulseaudio-alsa
+
+lightdm
+
+lightdm-gtk-greeter
