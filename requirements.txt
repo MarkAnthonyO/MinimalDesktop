@@ -10,6 +10,8 @@ xdg-desktop-portal-lxqt
 
 xdg-desktop-portal-gtk
 
+jgmenu
+
 flatpak
 
 picom
