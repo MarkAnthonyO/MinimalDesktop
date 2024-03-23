@@ -4,6 +4,8 @@ polybar
 
 fish
 
+neofetch
+
 picom
 
 neovim
