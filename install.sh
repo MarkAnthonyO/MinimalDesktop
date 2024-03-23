@@ -4,5 +4,5 @@
 sudo pacman -S - < requirements.txt
 
 # Copy config files
-cp -r "config files/openbox/" ~/.config/
-cp "config files/picom/picom.conf" ~/.config/
+cp -r "config/openbox/" ~/.config/
+cp "config/picom/picom.conf" ~/.config/
