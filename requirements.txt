@@ -24,6 +24,8 @@ ttf-font-awesome
 
 pulseaudio
 
+thunar
+
 pulseaudio-alsa
 
 lightdm
