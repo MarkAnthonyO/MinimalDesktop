@@ -1,3 +1,0 @@
-polybar main &
-nitrogen --restore &
-picom &
