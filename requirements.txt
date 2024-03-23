@@ -6,6 +6,10 @@ fish
 
 neofetch
 
+xdg-desktop-portal-lxqt
+
+xdg-desktop-portal-gtk
+
 flatpak
 
 picom
