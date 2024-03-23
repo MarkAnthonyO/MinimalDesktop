@@ -8,6 +8,8 @@ picom
 
 nitrogen
 
+firefox
+
 openbox
 
 plank
