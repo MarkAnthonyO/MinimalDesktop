@@ -6,6 +6,8 @@ fish
 
 neofetch
 
+flatpak
+
 picom
 
 neovim
