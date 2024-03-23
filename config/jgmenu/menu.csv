@@ -1,0 +1,4 @@
+ Apagar,shutdown now,Finaliza la sesion bspwm y apaga la computadora
+ Reiniciar,reboot,Reinicia la computadora
+ Suspender,systemctl suspend,La computadora entra en estado de descanso
+ Salir,openbox --exit,Finaliza la sesion OpenBox
