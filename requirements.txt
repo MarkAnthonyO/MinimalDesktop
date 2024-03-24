@@ -10,6 +10,10 @@ xdg-desktop-portal-lxqt
 
 xdg-desktop-portal-gtk
 
+xorg
+
+xorg-applications
+
 jgmenu
 
 flatpak
