@@ -6,7 +6,7 @@ sudo pacman -S - < requirements.txt
 mkdir ~/.config/
 
 # Copy config files
-cp -r "config/" ~/.config/
+cp "config/" ~/.config/
 
 # Enable ligthdm
 sudo systemctl enable lightdm
