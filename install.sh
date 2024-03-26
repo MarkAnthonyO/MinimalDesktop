@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install required dependencies
-yes | sudo pacman -S - < requirements.txt
+sudo pacman -S - < requirements.txt
 
 # Copy config files
 cp -r "config/openbox/" ~/.config/
