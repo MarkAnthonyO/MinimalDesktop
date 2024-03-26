@@ -16,10 +16,6 @@ xorg
 
 obconf
 
-gnome-keyring
-
-polkit-gnome
-
 xorg-apps
 
 gvfs
