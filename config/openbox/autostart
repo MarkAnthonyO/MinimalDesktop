@@ -1,6 +1,5 @@
 polybar main &
 nitrogen --restore &
 picom &
-thunar --daemon &
 xdg-user-dirs-update &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
