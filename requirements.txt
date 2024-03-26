@@ -16,6 +16,8 @@ xorg
 
 obconf
 
+lxappearance
+
 xorg-apps
 
 gvfs
