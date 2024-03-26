@@ -12,6 +12,10 @@ xdg-desktop-portal-gtk
 
 xorg
 
+obconf
+
+polkit-gnome
+
 xorg-apps
 
 gvfs
