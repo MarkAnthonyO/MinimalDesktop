@@ -12,7 +12,9 @@ xdg-desktop-portal-gtk
 
 xorg
 
-xorg-applications
+xorg-apps
+
+gvfs
 
 jgmenu
 
