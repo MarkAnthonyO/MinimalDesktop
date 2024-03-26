@@ -54,6 +54,8 @@ pulseaudio
 
 thunar
 
+thunar-volman
+
 pulseaudio-alsa
 
 lightdm
