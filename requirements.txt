@@ -16,6 +16,8 @@ xorg
 
 obconf
 
+gpicview
+
 lxappearance
 
 xorg-apps
