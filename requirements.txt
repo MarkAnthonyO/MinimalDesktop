@@ -54,13 +54,15 @@ ttf-jetbrains-mono-nerd
 
 ttf-font-awesome
 
-pulseaudio
+pipewire
+
+pipewire-alsa
+
+pipewire-pulse
 
 thunar
 
 thunar-volman
-
-pulseaudio-alsa
 
 lightdm
 
