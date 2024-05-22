@@ -6,10 +6,6 @@ installDependencies() {
 
   sudo systemctl enable lightdm
   xdg-user-dirs-gtk-update
-
-  cd ~/.fonts
-  wget https://github.com/ryanoasis/powerline-extra-symbols/raw/master/PowerlineExtraSymbols.otf
-  cd ..
 }
 
 copyConfs() {
@@ -22,6 +18,13 @@ copyConfs() {
   sudo cp global/lightdm/* /etc/lightdm/
 }
 
+downloadFont() {
+  cd ~/.fonts
+  wget https://github.com/ryanoasis/powerline-extra-symbols/raw/master/PowerlineExtraSymbols.otf
+}
+
 installDependencies
 
 copyConfs
+
+downloadFont
