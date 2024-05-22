@@ -83,3 +83,7 @@ lightdm-webkit2-greeter
 lightdm-webkit-theme-litarvan
 
 accountsservice
+
+lxappearance-obconf-gtk3
+
+obconf
