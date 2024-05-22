@@ -1,7 +1,7 @@
 super + Return
           rofi -show drun
 
-XF86PrintScreen
+Print
            gnome-screenshot
 
 XF86PowerOff
