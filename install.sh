@@ -1,21 +1,27 @@
 #!/bin/bash
-command() {
+installDependencies() {
   # Instalation dependencies
   sudo pacman -Sy
   sudo pacman -S - < requirements.txt
 
   sudo systemctl enable lightdm
   xdg-user-dirs-gtk-update
-  
+
+  cd ~/.fonts
+  wget https://github.com/ryanoasis/powerline-extra-symbols/raw/master/PowerlineExtraSymbols.otf
+  cd ..
+}
+
+copyConfs() {
   # Configurations
   mkdir ~/.config
   mkdir ~/.fonts
   
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
-  
-  cd ~/.fonts
-  wget https://github.com/ryanoasis/powerline-extra-symbols/raw/master/PowerlineExtraSymbols.otf
+  sudo cp global/lightdm/* /etc/lightdm/
 }
 
-command
+installDependencies
+
+copyConfs
