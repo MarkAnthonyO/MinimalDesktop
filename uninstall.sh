@@ -7,3 +7,5 @@ rm -r ~/.config/picom
 rm -r ~/.config/polybar
 rm -r ~/.config/pwoff
 rm -r ~/.config/sxhkd
+
+sudo -r /etc/lightdm/
