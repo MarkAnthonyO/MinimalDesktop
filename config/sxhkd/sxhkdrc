@@ -1,0 +1,8 @@
+super + Return
+          rofi -show drun
+
+XF86PrintScreen
+           gnome-screenshot
+
+XF86PowerOff
+                   ~/.config/pwoff/menu.sh
