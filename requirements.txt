@@ -1,20 +1,20 @@
-konsole
+kitty
 
 polybar
 
 fish
 
-neofetch
+fastfetch
 
-xdg-desktop-portal-lxqt
+gnome-screenshot
 
 xdg-desktop-portal-gtk
 
 xdg-user-dirs-gtk
 
-xorg
+tumbler
 
-obconf
+xorg
 
 gpicview
 
@@ -36,9 +36,9 @@ nitrogen
 
 firefox
 
-openbox
+bspwm
 
-plank
+sxhkd
 
 ark
 
@@ -50,9 +50,19 @@ polkit-gnome
 
 gnome-keyring
 
+noto-fonts
+
+noto-fonts-cjk
+
+noto-fonts-emoji
+
 ttf-jetbrains-mono-nerd
 
 ttf-font-awesome
+
+thunar
+
+thunar-volman
 
 pipewire
 
@@ -60,10 +70,18 @@ pipewire-alsa
 
 pipewire-pulse
 
-thunar
+pavucontrol
 
-thunar-volman
+wget
+
+yad
 
 lightdm
 
-lightdm-gtk-greeter
+lightdm-webkit2-greeter
+
+lightdm-webkit-theme-litarvan
+
+accountsservice
+
+wmname
