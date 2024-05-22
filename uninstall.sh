@@ -9,4 +9,4 @@ rm -r ~/.config/pwoff
 rm -r ~/.config/sxhkd
 rm ~/.fonts/PowerlineExtraSymbols.otf
 
-sudo -r /etc/lightdm/
+sudo rm -r /etc/lightdm/
