@@ -1,5 +1,5 @@
 #!/bin/sh
-yad --image="info" --text="The PC will shutting down, are you sure?" --button="Shutting down":0 --button="Cancel":1
+yad --center --image="info" --text="The PC will shutting down, are you sure?" --button="Shutting down":0 --button="Cancel":1
 
 ans=$?
 
