@@ -16,6 +16,8 @@ copyConfs() {
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
   sudo cp global/lightdm/* /etc/lightdm/
+
+  chmod +x ~/.config/pwoff/menu.sh
 }
 
 downloadFont() {
