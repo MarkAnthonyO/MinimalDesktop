@@ -24,6 +24,8 @@ xorg-apps
 
 gvfs
 
+vlc
+
 jgmenu
 
 flatpak
