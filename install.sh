@@ -12,6 +12,7 @@ copyConfs() {
   # Configurations
   mkdir ~/.config
   mkdir ~/.fonts
+  mkdir ~/.themes
   
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
@@ -25,8 +26,15 @@ downloadFont() {
   wget https://github.com/ryanoasis/powerline-extra-symbols/raw/master/PowerlineExtraSymbols.otf
 }
 
+downloadTheme() {
+  cd ~/.themes
+  git clone https://github.com/MarkAnthonyO/MinD-theme.git
+}
+
 installDependencies
 
 copyConfs
 
 downloadFont
+
+downloadTheme
