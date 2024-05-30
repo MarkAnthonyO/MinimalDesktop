@@ -6,9 +6,9 @@
   		<separator label="Applications"/>
   		
   		<item label="Firefox">
-      		<action name="Execute">
-        		<command>firefox</command>
-      		</action>
+      			<action name="Execute">
+        			<command>firefox</command>
+      			</action>
     	</item>
     	<item label="Terminal">
     		<action name="Execute">
