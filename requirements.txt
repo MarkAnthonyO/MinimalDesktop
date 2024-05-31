@@ -10,6 +10,8 @@ gnome-screenshot
 
 gthumb
 
+gnome-disk-utility
+
 xdg-desktop-portal-gtk
 
 xdg-user-dirs-gtk
@@ -17,8 +19,6 @@ xdg-user-dirs-gtk
 tumbler
 
 xorg
-
-gpicview
 
 lxappearance-gtk3
 
@@ -34,7 +34,7 @@ flatpak
 
 picom
 
-neovim
+leafpad
 
 nitrogen
 
