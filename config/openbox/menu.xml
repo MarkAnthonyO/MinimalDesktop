@@ -59,6 +59,12 @@
       			<command>obconf</command>
       		</action>
     	</item>
+
+	<item label="Disks">
+      		<action name="Execute">
+      			<command>gnome-disks</command>
+      		</action>
+    	</item>
     	
     	<item label="Appearance">
       		<action name="Execute">
