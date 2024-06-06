@@ -5,7 +5,7 @@
 	<name>Abrir un terminal aquí</name>
 	<submenu></submenu>
 	<unique-id>1711422428575043-1</unique-id>
-	<command>kitty</command>
+	<command>konsole</command>
 	<description>Ejemplo de una acción personalizada</description>
 	<range></range>
 	<patterns>*</patterns>
