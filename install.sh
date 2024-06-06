@@ -5,7 +5,7 @@ installDependencies() {
   sudo pacman -S - < requirements.txt
 
   sudo systemctl enable lightdm
-  xdg-user-dirs-gtk-update
+  xdg-user-dirs-update
 }
 
 copyConfs() {
@@ -17,7 +17,6 @@ copyConfs() {
   
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
-  sudo cp global/lightdm/* /etc/lightdm/
 
   chmod +x ~/.config/pwoff/menu.sh
 }
