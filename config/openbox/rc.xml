@@ -233,7 +233,12 @@
         <command>rofi -show drun</command>
       </action>
     </keybind>
-    
+    <!-- Keybindings for print screen -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>gnome-screenshot</command>
+      </action>
+    </keybind>
     <!-- Keybindings for poweroff -->
     <keybind key="XF86PowerOff">
       <action name="Execute">
