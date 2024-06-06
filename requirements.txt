@@ -24,7 +24,7 @@ tumbler
 
 xorg
 
-lxappearance-gtk3
+lxappearance-obconf
 
 xorg-apps
 
@@ -35,6 +35,8 @@ vlc
 jgmenu
 
 flatpak
+
+xfdesktop
 
 picom
 
