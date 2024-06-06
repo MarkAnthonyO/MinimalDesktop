@@ -10,4 +10,4 @@ rm -r ~/.config/sxhkd
 rm ~/.fonts/PowerlineExtraSymbols.otf
 
 sudo rm -r ~/.themes/MinD-theme
-sudo rm -r /etc/lightdm/
+sudo rm -r ~/.icons/MinD-Cursor
