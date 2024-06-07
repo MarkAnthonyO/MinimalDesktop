@@ -16,6 +16,8 @@ xdg-desktop-portal-gtk
 
 dosfstools
 
+evince
+
 ntfs-3g
 
 xdg-user-dirs-gtk
