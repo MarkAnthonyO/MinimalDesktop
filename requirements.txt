@@ -99,3 +99,9 @@ lightdm-gtk-greeter-settings
 accountsservice
 
 obconf
+
+libreoffice-fresh
+
+libreoffice-fresh-es
+
+libreoffice-fresh-ja
