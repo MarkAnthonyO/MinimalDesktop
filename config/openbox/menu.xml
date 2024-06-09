@@ -8,72 +8,72 @@
       			<action name="Execute">
         			<command>firefox</command>
       			</action>
-    	</item>
+    		</item>
 		
-    	<item label="Terminal">
-    		<action name="Execute">
-        		<command>konsole</command>
-      		</action>
-    	</item>
+    		<item label="Terminal">
+    			<action name="Execute">
+        			<command>konsole</command>
+      			</action>
+    		</item>
 
-    	<item label="File manager">
-      		<action name="Execute">
-        		<command>thunar</command>
-      		</action>
-    	</item>
+    		<item label="File manager">
+      			<action name="Execute">
+        			<command>thunar</command>
+      			</action>
+    		</item>
     	
-    	<item label="Image viewer">
-      		<action name="Execute">
-        		<command>gthumb</command>
-      		</action>
-    	</item>
+    		<item label="Image viewer">
+      			<action name="Execute">
+        			<command>gthumb</command>
+      			</action>
+    		</item>
     	
-    	<item label="Media player">
-      		<action name="Execute">
-        		<command>vlc</command>
-      		</action>
-    	</item>
+    		<item label="Media player">
+      			<action name="Execute">
+        			<command>vlc</command>
+      			</action>
+    		</item>
     	
-    	<separator label="Configuration"/>
+    		<separator label="Configuration"/>
     	
-    	<item label="Wallpaper">
-      		<action name="Execute">
-        		<command>nitrogen</command>
-      		</action>
-    	</item>
+    		<item label="Wallpaper">
+      			<action name="Execute">
+        			<command>nitrogen</command>
+      			</action>
+    		</item>
     	
-    	<item label="Sound">
-      		<action name="Execute">
-      			<command>pavucontrol</command>
-      		</action>
-    	</item>
+    		<item label="Sound">
+      			<action name="Execute">
+      				<command>pavucontrol</command>
+      			</action>
+    		</item>
     	
-    	<item label="Network">
-      		<action name="Execute">
-      			<command>kitty nmtui</command>
-      		</action>
-    	</item>
+    		<item label="Network">
+      			<action name="Execute">
+      				<command>kitty nmtui</command>
+      			</action>
+    		</item>
     	
-    	<item label="Desktop">
-      		<action name="Execute">
-      			<command>obconf</command>
-      		</action>
-    	</item>
+    		<item label="Desktop">
+      			<action name="Execute">
+      				<command>obconf</command>
+      			</action>
+    		</item>
 
-	<item label="Disks">
-      		<action name="Execute">
-      			<command>gnome-disks</command>
-      		</action>
-    	</item>
+		<item label="Disks">
+      			<action name="Execute">
+      				<command>gnome-disks</command>
+      			</action>
+    		</item>
     	
-    	<item label="Appearance">
-      		<action name="Execute">
-      			<command>lxappearance</command>
-      		</action>
-    	</item>
+    		<item label="Appearance">
+      			<action name="Execute">
+      				<command>lxappearance</command>
+      			</action>
+    		</item>
 
-    	<item label="Reload configuration">
-      		<action name="Reconfigure" />
-    	</item>
+    		<item label="Reload configuration">
+      			<action name="Reconfigure" />
+    		</item>
 	</menu>
 </openbox_menu>
