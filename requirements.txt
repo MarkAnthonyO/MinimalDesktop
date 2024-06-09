@@ -38,8 +38,6 @@ jgmenu
 
 flatpak
 
-xfdesktop
-
 picom
 
 leafpad
@@ -49,8 +47,6 @@ nitrogen
 firefox
 
 openbox
-
-sxhkd
 
 ark
 
