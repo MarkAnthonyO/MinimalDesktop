@@ -217,6 +217,7 @@
     </keybind>
 
     <keybind key="W-Left">
+      <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>0%</x>
         <y>0%</y>
@@ -226,6 +227,7 @@
     </keybind>
 
     <keybind key="W-Right">
+      <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>50%</x>
         <y>0%</y>
