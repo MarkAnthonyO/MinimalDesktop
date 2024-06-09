@@ -3,6 +3,6 @@ picom &
 setxkbmap es
 dunst &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-light-locker &
+thunar --daemon &
 
-systemd-inhibit --what=handle-power-key --why="Custom script" thunar --daemon &
+systemd-inhibit --what=handle-power-key --why="Custom script" light-locker &
