@@ -50,7 +50,7 @@
     	
     		<item label="Network">
       			<action name="Execute">
-      				<command>kitty nmtui</command>
+      				<command>konsole -e nmtui</command>
       			</action>
     		</item>
     	
