@@ -1,8 +1,8 @@
 [global]
 width = 300
 height = 90
-notification_limit = 10
-origin = top-center
+notification_limit = 5
+origin = top-right
 
 icon_corner_radius = 10
 icon_theme = "Adwaita"
@@ -13,7 +13,7 @@ progress_bar = true
 progress_bar_corner_radius = 5
 
 gap_size = 5
-font = "JetBrainsMonoNerdFont-Regular 12"
+font = JetBrainsMonoNL NF Regular 12
 
 format = "<b>%a</b>\n%s\n%p"
 
