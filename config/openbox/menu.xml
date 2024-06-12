@@ -65,6 +65,12 @@
       				<command>gnome-disks</command>
       			</action>
     		</item>
+              
+                <item label="Bluetooth">
+      			<action name="Execute">
+      				<command>blueberry</command>
+      			</action>
+    		</item>
     	
     		<item label="Appearance">
       			<action name="Execute">
