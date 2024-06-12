@@ -101,3 +101,7 @@ libreoffice-fresh
 libreoffice-fresh-es
 
 libreoffice-fresh-ja
+
+blueberry
+
+bluez
