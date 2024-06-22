@@ -179,13 +179,13 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="W-S-Left">
+    <keybind key="C-A-Left">
       <action name="GoToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-S-Right">
+    <keybind key="C-A-Right">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -206,7 +206,7 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
-    <keybind key="W-Tab">
+    <keybind key="A-Tab">
       <action name="NextWindow">
         <finalactions>
           <action name="Focus"/>
