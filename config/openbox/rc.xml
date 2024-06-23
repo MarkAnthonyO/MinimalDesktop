@@ -624,13 +624,5 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application name="*">
-      <shade>no</shade>
-      <position force="yes">
-        <x>center</x>
-        <y>center</y>
-      </position>
-      <focus>yes</focus>
-    </application>
   </applications>
 </openbox_config>
