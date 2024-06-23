@@ -7,3 +7,4 @@ thunar --daemon &
 nitrogen --restore &
 
 systemd-inhibit --what=handle-power-key --why="Custom script" light-locker &
+tint2 &
