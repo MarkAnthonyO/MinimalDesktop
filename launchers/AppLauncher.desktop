@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=AppLauncher
+Comment=Show all applications
+Exec=rofi -show drun
+Icon=applications-all
+Terminal=false
+Type=Application
+Categories=Apps;
