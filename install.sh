@@ -14,9 +14,13 @@ copyConfs() {
   mkdir ~/.fonts
   mkdir ~/.themes
   mkdir ~/.icons
+  mkdir ~/.local
+  mkdir ~/.local/share/
+  mkdir ~/.local/share/applications/
   
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
+  cp -r launchers/* ~/.local/share/applications/
 
   chmod +x ~/.config/pwoff/menu.sh
 }
