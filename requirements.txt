@@ -107,3 +107,5 @@ blueberry
 bluez
 
 bluez-utils
+
+tint2
