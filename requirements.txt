@@ -72,6 +72,8 @@ ttf-font-awesome
 
 thunar
 
+webp-pixbuf-loader
+
 thunar-volman
 
 pipewire
