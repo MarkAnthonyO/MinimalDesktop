@@ -624,10 +624,14 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application class="*">
+    <application type="*">
       <position force="no">
         <x>center</x>
         <y>center</y>
+      </position>
+    </application>
+    <application class="Tint2">
+      <position force="yes">
       </position>
     </application>
   </applications>
