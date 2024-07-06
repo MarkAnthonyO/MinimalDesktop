@@ -9,20 +9,39 @@ icon_theme = "Adwaita"
 min_icon_size = 70
 max_icon_size = 70
 
-progress_bar = true
-progress_bar_corner_radius = 5
-
 gap_size = 5
 font = JetBrainsMonoNL NF Regular 12
 
-format = "<b>%a</b>\n%s\n%p"
+format = "<b>%a</b>\n%s"
 
 alignment = center
 
 corner_radius = 10
 vertical_alignment = center
+separator_height = 2
 
 background = "#464646"
 foreground = "#ffffff"
-highlight = "#ffb800"
-frame_color = "#ffffff"
+frame_color = "#afafaf"
+
+# Applications
+dmenu = /usr/bin/dmenu -p dunst:
+browser = /usr/bin/firefox -new-tab
+
+[urgency_low]
+background = "#464646"
+foreground = "#ffffff"
+frame_color = "#afafaf"
+timeout = 10
+
+[urgency_normal]
+background = "#464646"
+foreground = "#ffffff"
+frame_color = "#ffc300"
+timeout = 10
+
+[urgency_critical]
+background = "#900000"
+foreground = "#ffffff"
+frame_color = "#ff0000"
+timeout = 10
