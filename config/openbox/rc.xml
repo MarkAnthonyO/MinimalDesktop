@@ -120,7 +120,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>5</number>
+    <number>1</number>
     <firstdesk>1</firstdesk>
     <names>
       <!-- set names up here if you want to, like this:
@@ -625,7 +625,7 @@
   </menu>
   <applications>
     <application type="*">
-      <position force="no">
+      <position force="yes">
         <x>center</x>
         <y>center</y>
       </position>
