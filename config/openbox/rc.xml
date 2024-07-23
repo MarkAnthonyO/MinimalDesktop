@@ -630,9 +630,5 @@
         <y>center</y>
       </position>
     </application>
-    <application class="Tint2">
-      <position force="yes">
-      </position>
-    </application>
   </applications>
 </openbox_config>
