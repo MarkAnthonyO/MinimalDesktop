@@ -20,7 +20,7 @@ copyConfs() {
   
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
-  cp -r launchers/* ~/.local/share/applications/
+  sudo cp -r launchers/* /usr/share/applications/
 
   chmod +x ~/.config/pwoff/menu.sh
 }
