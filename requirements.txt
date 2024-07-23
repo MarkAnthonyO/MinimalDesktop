@@ -110,4 +110,4 @@ bluez
 
 bluez-utils
 
-tint2
+plank
