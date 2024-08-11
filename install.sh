@@ -21,31 +21,27 @@ copyConfs() {
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
   sudo cp -r launchers/* /usr/share/applications/
+  sudo cp -r global/* /etc/
 
   chmod +x ~/.config/pwoff/menu.sh
-}
-
-downloadFont() {
-  cd ~/.fonts
-  wget https://github.com/ryanoasis/powerline-extra-symbols/raw/master/PowerlineExtraSymbols.otf
-}
-
-downloadCursorTheme() {
-  cd ~/.icons
-  git clone https://github.com/MarkAnthonyO/MinD-Cursor.git
 }
 
 downloadTheme() {
   cd ~/.themes
   git clone https://github.com/MarkAnthonyO/MinD-theme.git
+  
+  cd /tmp
+  git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
+  cd /tmp/Graphite-gtk-theme
+  sudo ./install.sh
+  
+  cd /tmp
+  git clone https://github.com/vinceliuice/Colloid-icon-theme.git
+  sudo ./install.sh -t all 
 }
 
 installDependencies
 
 copyConfs
 
-downloadFont
-
 downloadTheme
-
-downloadCursorTheme

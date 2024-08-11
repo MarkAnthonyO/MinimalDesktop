@@ -10,6 +10,10 @@ gnome-screenshot
 
 gthumb
 
+breeze
+
+gtk-engine-murrine
+
 gnome-disk-utility
 
 xdg-desktop-portal-gtk
@@ -90,9 +94,9 @@ yad
 
 lightdm
 
-lightdm-gtk-greeter
+lightdm-webkit2-greeter
 
-lightdm-gtk-greeter-settings
+lightdm-webkit-theme-litarvan
 
 accountsservice
 
@@ -103,6 +107,10 @@ libreoffice-fresh
 libreoffice-fresh-es
 
 libreoffice-fresh-ja
+
+hunspell-en_us
+
+hunspell-es_any
 
 blueberry
 

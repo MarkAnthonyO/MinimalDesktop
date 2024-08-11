@@ -1,1 +1,2 @@
 LANG=es_MX.UTF8
+export MOZ_GTK_TITLEBAR_DECORATION=client

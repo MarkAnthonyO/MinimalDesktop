@@ -630,5 +630,9 @@
         <y>center</y>
       </position>
     </application>
+    
+    <application class="firefox">
+	<decor>no</decor>
+    </application>
   </applications>
 </openbox_config>
