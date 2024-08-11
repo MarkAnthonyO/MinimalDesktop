@@ -27,8 +27,10 @@ copyConfs() {
 }
 
 downloadTheme() {
-  cd ~/.themes
+  cd /tmp
   git clone https://github.com/MarkAnthonyO/MinD-theme.git
+  cd /tmp/MinD-theme
+  sudo ./install.sh
   
   cd /tmp
   git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
@@ -37,6 +39,7 @@ downloadTheme() {
   
   cd /tmp
   git clone https://github.com/vinceliuice/Colloid-icon-theme.git
+  cd /tmp/Colloid-icon-theme
   sudo ./install.sh -t all 
 }
 
