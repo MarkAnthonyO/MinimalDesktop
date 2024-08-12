@@ -2,11 +2,11 @@
 <actions>
 <action>
 	<icon>utilities-terminal</icon>
-	<name>Abrir un terminal aquí</name>
+	<name>Open terminal here</name>
 	<submenu></submenu>
 	<unique-id>1711422428575043-1</unique-id>
 	<command>konsole</command>
-	<description>Ejemplo de una acción personalizada</description>
+	<description>Open a terminal</description>
 	<range></range>
 	<patterns>*</patterns>
 	<startup-notify/>
