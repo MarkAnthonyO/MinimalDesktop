@@ -11,15 +11,12 @@ installDependencies() {
 copyConfs() {
   # Configurations
   mkdir ~/.config
-  mkdir ~/.fonts
   mkdir ~/.themes
   mkdir ~/.icons
-  mkdir ~/.local
-  mkdir ~/.local/share/
-  mkdir ~/.local/share/applications/
   
   # Copy configurations for Desktop environment
   cp -r config/* ~/.config
+  cp -r icon_config/* ~/.icons
   sudo cp -r launchers/* /usr/share/applications/
   sudo cp -r global/* /etc/
 
