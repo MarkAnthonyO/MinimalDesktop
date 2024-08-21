@@ -67,6 +67,14 @@
       <!-- 'italic' or 'normal' -->
     </font>
   </theme>
+
+  <desktops>
+    <number>1</number>
+    <firstdesk>1</firstdesk>
+    <names>
+    </names>
+    <popupTime>500</popupTime>
+  </desktops>
   
   <keyboard>
     <keybind key="C-A-Left">
