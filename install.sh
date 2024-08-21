@@ -23,6 +23,10 @@ copyConfs() {
   chmod +x ~/.config/pwoff/menu.sh
 }
 
+changeConfig() {
+  gsettings set org.cinnamon.desktop.default-applications.terminal exec konsole
+}
+
 downloadTheme() {
   cd /tmp
   git clone https://github.com/MarkAnthonyO/MinD-theme.git
@@ -45,3 +49,5 @@ installDependencies
 copyConfs
 
 downloadTheme
+
+changeConfig
