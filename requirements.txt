@@ -74,11 +74,17 @@ ttf-jetbrains-mono-nerd
 
 ttf-font-awesome
 
-thunar
-
 webp-pixbuf-loader
 
-thunar-volman
+nemo
+
+nemo-preview
+
+nemo-fileroller
+
+nemo-share
+
+cinnamon-translations
 
 pipewire
 
