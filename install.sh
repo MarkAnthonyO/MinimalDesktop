@@ -4,6 +4,7 @@ installDependencies() {
   sudo pacman -Sy
   sudo pacman -S - < requirements.txt
 
+  sudo systemctl enable bluetooth
   sudo systemctl enable lightdm
   xdg-user-dirs-update
 }
