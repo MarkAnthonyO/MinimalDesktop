@@ -4,7 +4,7 @@
 	<menu id="root-menu" label="Openbox 3">
 		<separator label="Applications"/>
   		
-		<item label="Web browser">
+		<item label="Firefox">
       			<action name="Execute">
         			<command>firefox</command>
       			</action>
@@ -33,9 +33,9 @@
         			<command>vlc</command>
       			</action>
     		</item>
-
-		<item label="All applications">
-    			<action name="Execute">
+    		
+    		<item label="All aplications">
+      			<action name="Execute">
         			<command>rofi -show drun</command>
       			</action>
     		</item>
