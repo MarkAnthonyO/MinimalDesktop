@@ -77,6 +77,11 @@
   </desktops>
   
   <keyboard>
+    <keybind key="W-L">
+      <action name="Execute">
+        <command>dm-tool switch-to-greeter</command>
+      </action>
+    </keybind>
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
         <to>left</to>
