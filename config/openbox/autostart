@@ -3,8 +3,11 @@ picom &
 setxkbmap es
 dunst &
 
+xfsettingsd &
+
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 nitrogen --restore &
+
 
 plank &
 systemd-inhibit --what=handle-power-key --why="Custom script" light-locker &
