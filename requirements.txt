@@ -26,8 +26,6 @@ ntfs-3g
 
 xdg-user-dirs-gtk
 
-tumbler
-
 xorg
 
 lxappearance-obconf
@@ -101,10 +99,6 @@ lightdm
 lightdm-gtk-greeter
 
 lightdm-gtk-greeter-settings
-
-accountsservice
-
-obconf
 
 libreoffice-fresh
 
