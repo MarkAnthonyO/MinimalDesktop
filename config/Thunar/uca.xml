@@ -4,9 +4,21 @@
 	<icon>utilities-terminal</icon>
 	<name>Open terminal here</name>
 	<submenu></submenu>
-	<unique-id>1711422428575043-1</unique-id>
+	<unique-id>1727655843426902-1</unique-id>
 	<command>konsole</command>
-	<description>Open a terminal</description>
+	<description>Open terminal</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>lock</icon>
+	<name>Open as admin</name>
+	<submenu></submenu>
+	<unique-id>1727655843426914-2</unique-id>
+	<command>pkexec thunar $(pwd)</command>
+	<description>Open thunar as admin</description>
 	<range></range>
 	<patterns>*</patterns>
 	<startup-notify/>
