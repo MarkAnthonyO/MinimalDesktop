@@ -1,6 +1,7 @@
 #!/bin/bash
 installDependencies() {
   # Instalation dependencies
+  echo "| Installing dependecies |"
   sudo pacman -Sy
   sudo pacman -S - < requirements.txt
 
@@ -11,6 +12,7 @@ installDependencies() {
 
 copyConfs() {
   # Configurations
+  echo "| Configuring for user: $USER |"
   mkdir ~/.config
   mkdir ~/.themes
   mkdir ~/.icons
@@ -24,25 +26,22 @@ copyConfs() {
   chmod +x ~/.config/pwoff/menu.sh
 }
 
-changeConfig() {
-  gsettings set org.cinnamon.desktop.default-applications.terminal exec konsole
-}
-
 downloadTheme() {
+  echo "| Configuring for user: $USER |"
   cd /tmp
   git clone https://github.com/MarkAnthonyO/MinD-theme.git
   cd /tmp/MinD-theme
-  sudo ./install.sh
+  ./install.sh
   
   cd /tmp
   git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
   cd /tmp/Graphite-gtk-theme
-  sudo ./install.sh
+  ./install.sh
   
   cd /tmp
   git clone https://github.com/vinceliuice/Colloid-icon-theme.git
   cd /tmp/Colloid-icon-theme
-  sudo ./install.sh -t all 
+  ./install.sh -t all 
 }
 
 installDependencies
