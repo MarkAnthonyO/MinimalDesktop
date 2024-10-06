@@ -18,7 +18,7 @@
 
     		<item label="File manager">
       			<action name="Execute">
-        			<command>nemo</command>
+        			<command>thunar</command>
       			</action>
     		</item>
     	
