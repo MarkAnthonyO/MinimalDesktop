@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="Applications"/>
+  		
+		<item label="Firefox">
+      			<action name="Execute">
+        			<command>firefox</command>
+      			</action>
+    		</item>
+		
+    		<item label="Terminal">
+    			<action name="Execute">
+        			<command>konsole</command>
+      			</action>
+    		</item>
+
+    		<item label="File manager">
+      			<action name="Execute">
+        			<command>thunar</command>
+      			</action>
+    		</item>
+    	
+    		<item label="Image viewer">
+      			<action name="Execute">
+        			<command>gthumb</command>
+      			</action>
+    		</item>
+    	
+    		<item label="Media player">
+      			<action name="Execute">
+        			<command>vlc</command>
+      			</action>
+    		</item>
+    		
+    		<item label="All aplications">
+      			<action name="Execute">
+        			<command>rofi -show drun</command>
+      			</action>
+    		</item>
+    	
+    		<separator label="Configuration"/>
+    	
+    		<item label="Wallpaper">
+      			<action name="Execute">
+        			<command>nitrogen</command>
+      			</action>
+    		</item>
+    	
+    		<item label="Sound">
+      			<action name="Execute">
+      				<command>pavucontrol</command>
+      			</action>
+    		</item>
+    	
+    		<item label="Network">
+      			<action name="Execute">
+      				<command>konsole -e nmtui</command>
+      			</action>
+    		</item>
+    	
+    		<item label="Desktop">
+      			<action name="Execute">
+      				<command>obconf</command>
+      			</action>
+    		</item>
+
+		<item label="Disks">
+      			<action name="Execute">
+      				<command>gnome-disks</command>
+      			</action>
+    		</item>
+              
+                <item label="Bluetooth">
+      			<action name="Execute">
+      				<command>blueberry</command>
+      			</action>
+    		</item>
+    	
+    		<item label="Appearance">
+      			<action name="Execute">
+      				<command>lxappearance</command>
+      			</action>
+    		</item>
+
+    		<item label="Reload configuration">
+      			<action name="Reconfigure" />
+    		</item>
+	</menu>
+</openbox_menu>
