@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+
+	<action>
+		<icon>utilities-terminal</icon>
+		<name>Open terminal here</name>
+		<submenu></submenu>
+		<unique-id>1727655843426902-1</unique-id>
+		<command>konsole</command>
+		<description>Open terminal</description>
+		<range></range>
+		<patterns>*</patterns>
+		<startup-notify/>
+		<directories/>
+	</action>
+
+	<action>
+		<icon>lock</icon>
+		<name>Open as admin</name>
+		<submenu></submenu>
+		<unique-id>1727655843426914-2</unique-id>
+		<command>pkexec thunar $(pwd)</command>
+		<description>Open thunar as admin</description>
+		<range></range>
+		<patterns>*</patterns>
+		<startup-notify/>
+		<directories/>
+	</action>
+</actions>

@@ -9,7 +9,6 @@ install() {
 	
 	sudo systemctl enable bluetooth
 	sudo systemctl enable lightdm
-	xdg-user-dirs-update
 }
 
 download_themes() {
@@ -60,8 +59,9 @@ install_for_all_user() {
 	sudo cp -r configs/gtk-3.0/ /etc/
 	sudo cp -r configs/openbox/ /etc/xdg/
 	sudo cp -r configs/picom/* /etc/xdg/
-	sudo cp -r configs/polybar /etc/xdg/
+	sudo cp -r configs/polybar/ /etc/xdg/
 	sudo cp -r icon/* /usr/share/icons/
+	cp -r configs/Thunar ~/.config
 }
 
 install_configs() {

@@ -2,7 +2,19 @@ firefox
 
 flatpak
 
-pcmanfm
+thunar
+
+thunar-archive-plugin
+
+thunar-media-tags-plugin
+
+thunar-shares-plugin
+
+thunar-vcs-plugin
+
+thunar-volman
+
+nitrogen
 
 gvfs
 
@@ -10,15 +22,23 @@ gvfs-mtp
 
 gvfs-afc
 
+gthumb
+
 leafpad
 
 polkit-gnome
 
 gnome-keyring
 
+gnome-disk-utility
+
+gnome-screenshot
+
 breeze
 
 lxappearance-obconf
+
+obconf
 
 noto-fonts
 
@@ -31,6 +51,8 @@ konsole
 lightdm
 
 lightdm-gtk-greeter
+
+lightdm-gtk-greeter-settings
 
 light-locker
 
@@ -63,3 +85,5 @@ ttf-jetbrains-mono-nerd
 ttf-font-awesome
 
 xorg
+
+vlc
