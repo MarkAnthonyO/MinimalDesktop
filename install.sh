@@ -61,6 +61,7 @@ install_for_all_user() {
 	sudo cp -r configs/picom/* /etc/xdg/
 	sudo cp -r configs/polybar/ /etc/xdg/
 	sudo cp -r icon/* /usr/share/icons/
+	sudo cp -r configs/xfce4 /etc/xdg/
 	cp -r configs/Thunar ~/.config
 }
 
@@ -84,7 +85,9 @@ install_configs() {
 
 enable_services() {
 	sudo systemctl enable bluetooth
-  	sudo systemctl enable lightdm	
+  	sudo systemctl enable lightdm
+	xdg-user-dirs-update
+	xdg-user-dirs-gtk-update
 }
 
 install

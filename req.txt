@@ -14,7 +14,17 @@ thunar-vcs-plugin
 
 thunar-volman
 
+file-roller
+
+unrar
+
+unzip
+
 nitrogen
+
+xdg-desktop-portal-gtk
+
+xdg-user-dirs-gtk
 
 gvfs
 
