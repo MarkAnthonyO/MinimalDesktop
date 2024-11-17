@@ -97,3 +97,5 @@ ttf-font-awesome
 xorg
 
 vlc
+
+ocean-sound-theme
