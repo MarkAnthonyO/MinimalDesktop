@@ -88,6 +88,7 @@ enable_services() {
   	sudo systemctl enable lightdm
 	xdg-user-dirs-update
 	xdg-user-dirs-gtk-update
+        sudo systemctl enable canberra-system-bootup.service
 }
 
 install
