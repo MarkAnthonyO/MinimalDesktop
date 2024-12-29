@@ -99,3 +99,7 @@ xorg
 vlc
 
 ocean-sound-theme
+
+xfce4-settings
+
+xiccd
