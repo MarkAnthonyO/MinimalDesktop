@@ -6,9 +6,6 @@ install() {
 	sudo pacman -Sy
 
 	sudo pacman -S - <  req.txt
-	
-	sudo systemctl enable bluetooth
-	sudo systemctl enable lightdm
 }
 
 download_themes() {
